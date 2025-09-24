@@ -1,0 +1,1 @@
+This CSS directory documents my learning journey through fundamental web styling concepts. It contains practical implementations of CSS basics including selectors, the box model, flexbox layouts, responsive design, typography, and color theory. The files showcase my progression from simple styling to more complex layout techniques while maintaining clean, organized code.
