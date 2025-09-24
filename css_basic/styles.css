@@ -1,17 +1,57 @@
 body{
 	display: flex;
 	flex-direction: column;
+	background-color: lavender;
 }
 main{
 	display: flex;
 	flex-direction: row;
-	flex: auto;
+	flex: 1;
+	padding: 25px;
 }
 article{
 	flex: 2;
 	overflow-y: auto;
+	background: white;
+	border-radius: 12px;
+	padding: 15px;
+	margin-bottom: 2.5px;
 }
 aside{
 	flex: 1;
 	overflow-y: auto;
+	border-radius: 12px;
+	padding: 15px;
+}
+table {
+	width: 100%;
+	margin: 25px 0;
+	border-radius: 8px;
+	overflow: hidden;
+	padding: 15px;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+thead {
+	background: lavender;
+	color: white;
+}
+header a {
+	padding: 8px 16px;
+	border-radius: 6px;
+	border: 2px solid white;
+}
+header a:hover {
+	color:white;
+	background: transparent;
+	border-color: white;
+}
+footer {
+	background: rgba(0,0,0,0.9);
+	color: white;
+	padding: 25px 15px;
+	text-align: center;
+	height: 2.5%;
+}
+footer a {
+	color: white;
 }
